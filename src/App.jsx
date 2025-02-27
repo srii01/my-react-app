@@ -1,9 +1,13 @@
 import React from "react";
+import TodoList from "./TodoList"; // Ensure correct import
+
+console.log("🎯 App component is rendering...");
 
 function App() {
   return (
     <div>
-      <h1 style={{ color: "red" }}>React is Rendering!</h1>
+      <h1>✅ React is Rendering!</h1>
+      <TodoList />
     </div>
   );
 }
