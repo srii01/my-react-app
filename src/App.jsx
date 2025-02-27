@@ -1,18 +1,19 @@
+// src/TodoList.jsx
 import React from "react";
-import TodoList from "./TodoList"; // Ensure correct import
 
-console.log("🎯 App component is rendering...");
-
-function App() {
+const TodoList = () => {
   return (
     <div>
-      <h1>✅ React is Rendering!</h1>
-      <TodoList />
+      <h2>Todo List</h2>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+      </ul>
     </div>
   );
-}
+};
 
-export default App;
+export default TodoList;
 
 
 
