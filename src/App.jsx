@@ -1,5 +1,7 @@
 import React from "react";
-import TodoList from "./TodoList"; // Ensure correct import
+import './App.css';  // Importing the CSS file
+
+import TodoList from "./TodoList";  // Ensure correct import
 
 console.log("🎯 App component is rendering...");
 
@@ -13,5 +15,3 @@ function App() {
 }
 
 export default App;
-
-
