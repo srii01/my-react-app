@@ -12,7 +12,8 @@ function TodoList() {
   };
 
   return (
-    <div>
+    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <h1>My To-Do List</h1>
       <input
         type="text"
         value={input}
@@ -29,4 +30,13 @@ function TodoList() {
   );
 }
 
-export default TodoList;
+function App() {
+  return (
+    <div>
+      <TodoList />
+    </div>
+  );
+}
+
+export default App;
+
