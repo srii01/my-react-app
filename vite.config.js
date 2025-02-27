@@ -1,4 +1,5 @@
+import { defineConfig } from 'vite';
+
 export default defineConfig({
-  base: "/my-react-app/",
-  plugins: [react()],
+  // Your Vite configuration here
 });
