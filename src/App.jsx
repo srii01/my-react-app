@@ -14,14 +14,16 @@ function TodoList() {
   return (
     <div style={{ textAlign: "center", marginTop: "20px" }}>
       <h1>My To-Do List</h1>
-      {/* Add an ID to the input and reference it in the label */}
+      {/* Label is correctly associated with input using htmlFor */}
       <label htmlFor="taskInput">Enter Task:</label>
       <input
         type="text"
-        id="taskInput" // Add a matching ID
+        id="taskInput" // Unique ID
+        name="task"    // Name attribute added
         value={input}
         onChange={(e) => setInput(e.target.value)}
         placeholder="Add a task..."
+        autoComplete="off" // Optional, prevents unwanted autofill
       />
       <button onClick={addTask}>Add</button>
       <ul>
