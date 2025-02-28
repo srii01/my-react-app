@@ -1,17 +1,20 @@
-<<<<<<< HEAD
 import React from "react";
-import './App.css';  // Importing the CSS file
+import TodoList from "./TodoList";
 
-import TodoList from "./TodoList";  // Ensure correct import
-
-console.log("🎯 App component is rendering...");
+console.log("🎯 App component is rendering..."); // Debug log
 
 function App() {
   return (
     <div>
       <h1>✅ React is Rendering!</h1>
       <TodoList />
-=======
+    </div>
+  );
+}
+
+export default App;
+
+/*
 import React, { useState } from "react";
 
 function App() {
@@ -164,3 +167,4 @@ const styles = {
 
 >>>>>>> 1f9575b (Initial commit)
 export default App;
+*/
