@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 20px;
   background-color: #f4f4f9;
+  color: #333; /* Keep default text color */
 }
 
 h1 {
@@ -43,8 +44,7 @@ li button:hover {
   background-color: darkred;
 }
 
-<<<<<<< HEAD
-=======
+/* Dark mode styles */
 html, body, #root {
   height: 100%;
   margin: 0;
@@ -55,4 +55,3 @@ html, body, #root {
   justify-content: center;
   align-items: center;
 }
->>>>>>> 1f9575b (Initial commit)

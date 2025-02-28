@@ -1,20 +1,3 @@
-import React from "react";
-import TodoList from "./TodoList";
-
-console.log("🎯 App component is rendering..."); // Debug log
-
-function App() {
-  return (
-    <div>
-      <h1>✅ React is Rendering!</h1>
-      <TodoList />
-    </div>
-  );
-}
-
-export default App;
-
-/*
 import React, { useState } from "react";
 
 function App() {
@@ -72,13 +55,10 @@ function App() {
           ))}
         </ul>
       </div>
->>>>>>> 1f9575b (Initial commit)
     </div>
   );
 }
 
-<<<<<<< HEAD
-=======
 const styles = {
   container: {
     width: "100vw",
@@ -156,7 +136,7 @@ const styles = {
   
   deleteButton: {
     backgroundColor: "#dc3545",
-    color: "pink",
+    color: "white",
     border: "none",
     padding: "5px 10px",
     fontSize: "14px",
@@ -165,6 +145,4 @@ const styles = {
   },
 };
 
->>>>>>> 1f9575b (Initial commit)
 export default App;
-*/
